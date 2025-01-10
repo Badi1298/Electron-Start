@@ -1,14 +1,15 @@
 {
-  "name": "electron",
-  "version": "1.0.0",
-  "description": "Electron app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Serban David",
-  "license": "ISC",
-  "devDependencies": {
-    "electron": "^33.3.1"
-  }
+	"name": "electron",
+	"version": "1.0.0",
+	"description": "Electron app",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Serban David",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "^33.3.1"
+	}
 }
